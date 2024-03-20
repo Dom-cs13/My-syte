@@ -1,0 +1,66 @@
+/* Restablecer estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #f7f7f7;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  /* Contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Sección "Sobre mí" */
+  #sobre-mi {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Sección "Por qué los videojuegos" */
+  #porque-los-videojuegos {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #f7f7f7;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 768px) {
+    /* Ajustar la presentación para dispositivos móviles */
+    h1 {
+      font-size: 20px;
+    }
+    
+    #sobre-mi, #porque-los-videojuegos {
+      margin-bottom: 10px;
+    }
+  }
+  
